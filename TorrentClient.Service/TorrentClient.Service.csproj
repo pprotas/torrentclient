@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="JonSkeet.MiscUtil" Version="0.2.0" />
+    <PackageReference Include="System.Diagnostics.EventLog" Version="4.7.0" />
+  </ItemGroup>
+
+</Project>

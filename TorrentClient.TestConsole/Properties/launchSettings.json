@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "TorrentClient.TestConsole": {
+      "commandName": "Project",
+      "commandLineArgs": "56723 lorem.txt.torrent C:\\Users\\pawpr\\Desktop\\Torrent\\"
+    }
+  }
+}
