@@ -10,8 +10,7 @@ pool:
   vmImage: 'windows-latest'
 
 variables:
-  solution: '**/*.sln'
-  buildPlatform: 'Any CPU'
+  DOTNET_SKIP_FIRST_TIME_EXPERIENCE: true
   buildConfiguration: 'Release'
 
 steps:
