@@ -10,8 +10,7 @@ pool:
   vmImage: 'windows-latest'
 
 variables:
-  solution: '**/*.sln'
-  buildPlatform: 'Any CPU'
+  DOTNET_SKIP_FIRST_TIME_EXPERIENCE: true
   buildConfiguration: 'Release'
 
 steps:
@@ -42,7 +41,7 @@ steps:
     command: 'publish'
     publishWebProjects: false
     zipAfterPublish: false
-    modifyOutputPath: false
+    modifyOutputPath: true
     arguments: --output $(Build.ArtifactStagingDirectory)
 
 - task: PublishPipelineArtifact@1
@@ -50,5 +49,3 @@ steps:
     targetPath: '$(Build.ArtifactStagingDirectory)'
     artifact: 'Torrent Client'
     publishLocation: 'pipeline'
-
-
