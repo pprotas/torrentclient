@@ -11,7 +11,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TorrentClient.Tests", "Torr
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TorrentClient.TestConsole", "TorrentClient.TestConsole\TorrentClient.TestConsole.csproj", "{946B44F0-780D-4147-BA71-05593B3135CF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TorrentClient.Client", "TorrentClient.Client\TorrentClient.Client.csproj", "{2D4E05B5-0B6E-449D-A481-AFA0067361D4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TorrentClient.Client", "TorrentClient.Client\TorrentClient.Client.csproj", "{2D4E05B5-0B6E-449D-A481-AFA0067361D4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
